@@ -1,6 +1,6 @@
 input_line = "one two one tho three"
 
-def find_index(string=input_line):
+def find_index_previous_word(string=input_line):
     
     # Разделяем входное предложение на отдельные слова и итерируем каждое слово
     result = string.split() # ['one', 'two', 'one', 'tho', 'three']
