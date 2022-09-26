@@ -1,7 +1,7 @@
 input_line = "apple orange banana banana orange"                                        
-dict_total = {}
 
 def most_often_word(string=input_line):
+    dict_total = {}
     
     for simvol in string.split():
         
