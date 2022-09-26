@@ -1,8 +1,8 @@
 input_line = "one two one tho three"
-my_dict = {}
-lst = []
 
 def count_occurrences(string=input_line):
+    my_dict = {}
+    lst = []
     
     for word in string.split():
         if word not in my_dict:
